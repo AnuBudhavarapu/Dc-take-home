@@ -2,6 +2,7 @@
 import { Card } from "../card/card"
 import { CardType } from '../cardType/card-type';
 import { Rank } from "../rank/rank"
+declare let require: any;
 export class Deck {
     cardTypes: CardType[]= [CardType.SPADE, CardType.CLUB, CardType.DIAMOND, CardType.HEART];
     ranks: Rank[] = [Rank.ACE, Rank.TWO, Rank.THREE, Rank.FOUR, Rank.FIVE, Rank.SIX, Rank.SEVEN, Rank.EIGHT, Rank.NINE, Rank.TEN, Rank.JACK, Rank.QUEEN, Rank.KING];
