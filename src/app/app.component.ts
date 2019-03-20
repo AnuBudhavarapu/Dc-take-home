@@ -34,9 +34,9 @@ export class AppComponent {
     this.cardsLeft = -1;
     this.isDisabled = true;
   }
-  /*gives out one card for every click and count is displayed
-  after all the cards are dealt and value is zero and if still the 
-  user click on it the deal  button is disabled*/
+  /*gives out one card for every click and count is displayed.
+   After all the cards are dealt the value is zero and if still the 
+   user clicks on it , the deal button is disabled*/
   dealOneCard() {
     this.isEdited = true;
     let imgArray = this.modifiedImageArray;
