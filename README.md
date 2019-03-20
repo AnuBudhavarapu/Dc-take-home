@@ -2,10 +2,10 @@
 This Project can be quickly started by following this https://angular.io/guide/quickstart
 
 # Required node modules
-1.Need to install type definitions for node.Run "npm i @types/node"
+1.Need to install type definitions for node. Run "npm i @types/node". 
 2.Need to install url-loader "npm install url-loader --save-dev"
 
-# Few Quick things needed
+# Few Quick things needed and versions used
 Node.js v10.15.3
 npm - Version 6.4.1
 TypeScript-Version 3.3.3333
