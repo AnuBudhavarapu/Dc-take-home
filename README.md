@@ -1,5 +1,17 @@
-# DcTakeHome
+# Get Started 
+This Project can be quickly started by following this https://angular.io/guide/quickstart
 
+# Required node modules
+1.Need to install type definitions for node.Run "npm i @types/node"
+2.Need to install url-loader "npm install url-loader --save-dev"
+
+# Few Quick things needed
+Node.js v10.15.3
+npm - Version 6.4.1
+TypeScript-Version 3.3.3333
+Angular Cli- Version 7.3.6
+
+# DcTakeHome
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
 
 ## Development server
