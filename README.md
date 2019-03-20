@@ -11,6 +11,13 @@ npm - Version 6.4.1
 TypeScript-Version 3.3.3333
 Angular Cli- Version 7.3.6
 
+# Functionalities added
+ Shuffle: When the user clicks on shuffle, it returns no value but the permutations are done in the background and shown to the user.
+ DealOneCard:Gives out one card for every click and count is displayed. After all the cards are dealt the value is zero and if still the 
+ user clicks on it , the DealOneCard button is disabled.
+ Reset:Clears the Deck
+  
+
 # DcTakeHome
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
 
