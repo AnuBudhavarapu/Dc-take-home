@@ -24,7 +24,7 @@ export class AppComponent {
     return imageArray;
   }
   //gets the shuffled cards from deck and displays it 
-  getshuffledCards() {
+  shuffle() {
     this.isEdited = false;
     let gallery = document.getElementById("cardGallery");
     let imgArray = this.deck.getShuffledCardDeck(this.imageArray);
@@ -37,7 +37,7 @@ export class AppComponent {
   /*gives out one card for every click and count is displayed
   after all the cards are dealt and value is zero and if still the 
   user click on it the deal  button is disabled*/
-  dealOne() {
+  dealOneCard() {
     this.isEdited = true;
     let imgArray = this.modifiedImageArray;
     if (this.cardsLeft == this.totalCardsLeft) {
@@ -68,10 +68,10 @@ export class AppComponent {
     this.isDisabled = false;
     this.imageArray = this.getAllCards();
     let shuffleBtn = document.getElementById("shuffle") as HTMLButtonElement;
-    shuffleBtn.addEventListener("click", (e: Event) => this.getshuffledCards());
+    shuffleBtn.addEventListener("click", (e: Event) => this.shuffle());
     let resetBtn = document.getElementById("reset") as HTMLButtonElement;
     resetBtn.addEventListener("click", (e: Event) => this.reset());
     let dealBtn = document.getElementById("dealOne") as HTMLButtonElement;
-    dealBtn.addEventListener("click", (e: Event) => this.dealOne());
+    dealBtn.addEventListener("click", (e: Event) => this.dealOneCard());
   }
 }
